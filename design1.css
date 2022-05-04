@@ -1,0 +1,170 @@
+body {
+	background-image : url("Images/ImageDeFond2.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: Arial;
+}
+
+.main {
+	font-size: +3.5em;
+	text-align: center;
+	text-justify: inter-word;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 8px 8px 12px #848484 ;
+}	
+
+.main2 {
+	font-size: +2.5em;
+	text-align: center;
+	text-justify: inter-word;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+	margin-left: 35%;
+	margin-right: 35%;
+    margin-top: 5%;
+	opacity: 0.85;
+	padding: 0%;
+}
+
+.main4 {
+	font-size: +2.5em;
+	text-align: center;
+	text-justify: inter-word;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+	margin-left: 35%;
+	margin-right: 35%;
+    margin-top: auto;
+	opacity: 0.85;
+	padding: 0%;
+}
+
+.menu{
+	position: relative;
+    font-size: +1.5em;
+	text-align: center;
+	text-justify: inter-word;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+	margin-left: 32%;
+	margin-right: 32%;
+	opacity: 0.80;
+}
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0 rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: #7c322f;    /* Couleur d'arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+}
+
+.menu ul{
+	list-style: none; /*suprime les puces avant le texte*/
+	margin-left: -10%; /*espacement sur la gauche*/
+	margin-top: 12%;
+}
+
+.menu ul li{
+	display: inline-block;
+	margin-top: 0.5%; /*espacement par rapport au haut de page*/
+	margin-left: 0.5%; /*espacement sur la gauche*/
+	margin-right: 0.5%;
+	margin-bottom: 0.5%;
+	padding: 0 40px;
+}
+
+.menu ul li a{
+	text-decoration: none; /*supprime le soulignage*/
+	color: #fff;
+	letter-spacing: 1px; /*espacement entre caractères*/
+}
+
+.menu ul li a:hover{
+	border-bottom: 2px solid #fff;
+	border-radius: 1px 1px 1px 1px;
+	background-color: black;
+	color:  #7c322f;
+	/*border-bottom: 2px solid  white;*/
+	border-radius: 1px 1px 1px 1px;
+	transition: 0.2s; 
+}
+
+.main3 {
+	font-size: +1.5em;
+	text-align: justify;
+	text-justify: inter-word;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+	margin-left: 30%;
+	margin-right: 30%;
+    margin-top: 3%;
+	opacity: 0.80;
+	padding: 15px;
+}
+
+p {
+	text-indent: 2em;
+  }
+
+  #scroll_to_top {
+	position: fixed;
+	width: 50px;
+	height: 5px;
+	bottom: 50px;
+	right: 30px;
+  }
+  #scroll_to_top img {
+	width: 55px;
+  }
+
+/*------------------------------------------------------menu jeu--------------------------------------------------------------------------*/
+
+/* DEBUT DE LA GESTION DU MENU HORIZONTAL */
+.menujeu{
+	position: relative;
+	text-align: center;
+	width: 100%; /*prend 100% de l'espace horizontal*/
+	margin-left: -20%;
+}
+.menujeu ul{
+	list-style: none; /*suprime les puces avant le texte*/
+	margin-left: 35%; /*espacement sur la gauche*/
+}
+
+.menujeu ul li{
+	display: inline-block;
+	margin-top: 10px; /*espacement par rapport au haut de page*/
+	margin-left: 2%; /*espacement sur la gauche*/
+	padding: 0 40px;
+}
+
+.menujeu ul li a{
+	text-decoration: none; /*suprime le soulignage*/
+	color: black;
+	letter-spacing: 0.75px; /*espacement entre caractères*/
+}
+
+.menujeu ul li a:hover{
+	border-bottom: 2px solid #fff;
+	border-radius: 1px 1px 1px 1px;
+	color:  #7c322f;
+	/*border-bottom: 2px solid  #ffd11a;*/
+	border-radius: 1px 1px 1px 1px;
+	transition: 0.2s;
+}
+/* FIN DE LA GESTION DU MENU HORIZONTAL */
